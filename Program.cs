@@ -3,7 +3,7 @@ using System.Text;
 
 internal class Program
 {
-    const string QueueConnectionString = "Endpoint=sb://geekburguer-316459.servicebus.windows.net/;SharedAccessKeyName=ProductPolicy;SharedAccessKey=JeNDsUiCuOsp30mxkMygtrM2YdXvkeR8a+ASbD9TLfk=";
+    const string QueueConnectionString = "";
     const string QueuePath = "ProductChanged";
     static IQueueClient _queueClient = new QueueClient(QueueConnectionString, QueuePath);
 
